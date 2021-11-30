@@ -1,0 +1,240 @@
+@import url(./vendor/normalize.css);
+@import url(./vendor/fonts/font.css);
+
+
+.page__one{
+  width: 100%;
+  background-color: rgba(13, 13, 43, 1);
+  box-sizing: border-box;
+}
+.header{
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-top: 60px;
+}
+
+.header__top{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.header__logo{
+  max-width: 134px;
+  max-height: 40px;
+}
+
+.header__menu{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 339px;
+  width: 100%;
+  margin-left: 452px;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+
+.header__menu-link{
+  color: white;
+  text-decoration: none;
+}
+
+.header__authentication{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  max-width: 221px;
+  width: 100%;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  margin-left: 56px;
+}
+
+.header__login{
+  width: 67px;
+  align-self: center;
+  border-right:  1px solid #F2F2F2;;
+}
+
+.button{
+  width: 130px;
+  height: 52px;
+  border-radius: 32px;
+  color: white;
+  background-color: #3671E9;
+  border-color: transparent;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+}
+
+.header__proposition{
+  display: flex;
+  flex-direction: row;
+  color: white; 
+  margin-top: 51px;
+  margin-bottom: 101px;
+}
+
+.header__illustration{
+  max-width: 604px;
+}
+
+.header__info{
+  margin-top: 50px;
+}
+
+
+.header__info-discount{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  padding: 4px 11px 4px 4px;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-radius: 32px;
+  max-width: 350px;
+}
+
+.header__info-profit{
+  max-width: 113px;
+  width: 100%;
+  height: 32px;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: #0D0D2B;
+  background-color: white;
+  border-radius: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.header__title{
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 76px;
+  margin: 24px 0;
+}
+
+.header__text{
+  max-width: 435px;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+  margin: 0 0 32px 0
+}
+
+.main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.numbers{
+  display: flex;
+  flex-direction: row;
+  color: white;
+  justify-content: space-between;
+  margin: 100px auto 116px;
+}
+
+.numbers__block{
+  display: flex;
+  flex-direction: row;
+}
+
+.numbers__block-icon{
+  background-color: rgba(255, 255, 255, 0.1);
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+}
+
+.numbers__icon{
+  width: 40px;
+}
+
+.numbers__block-number{
+  margin-left: 24px;
+  font-style: normal;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+}
+
+.numbers__number{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+}
+
+.number__text{
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+
+
+.trade{
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+} 
+
+.trade__block-info{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 100px 0 0 0;
+  color: white;
+}
+.trade__title{
+  margin: 0;
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  text-align: center;
+}
+
+.trade__text{
+  margin: 24px 0 0 0;
+  max-width: 622px;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 27px;
+  text-align: center;
+  padding-bottom: 219px;
+}
+
+.trade__cryptocurrencies{
+  background-color: #E0E0E0;
+}
+
