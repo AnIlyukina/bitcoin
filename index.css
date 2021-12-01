@@ -2,16 +2,18 @@
 @import url(./vendor/fonts/font.css);
 
 
-.page__one{
+.header{
   width: 100%;
   background-color: rgba(13, 13, 43, 1);
   box-sizing: border-box;
 }
-.header{
+
+.header__content{
   max-width: 1200px;
   margin: 0 auto;
   padding-top: 60px;
 }
+
 
 .header__top{
   width: 100%;
@@ -85,7 +87,7 @@
   flex-direction: row;
   color: white; 
   margin-top: 51px;
-  margin-bottom: 101px;
+  padding-bottom: 101px;
 }
 
 .header__illustration{
@@ -153,17 +155,25 @@
   margin: 0 0 32px 0
 }
 
-.main{
+/* .main{
   max-width: 1200px;
   margin: 0 auto;
-}
+} */
 
 .numbers{
+  width: 100%;
+  background-color: rgba(13, 13, 43, 1);
+  box-sizing: border-box;
+}
+
+.numbers__content{
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: row;
   color: white;
   justify-content: space-between;
-  margin: 100px auto 116px;
+  padding: 100px auto 116px;
 }
 
 .numbers__block{
@@ -209,11 +219,19 @@
   font-style: normal;
 } 
 
+.trade__first{
+  width: 100%;
+  background-color: rgba(13, 13, 43, 1);
+  box-sizing: border-box;
+}
+
 .trade__block-info{
+  max-width: 1200px;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 100px 0 0 0;
+  padding: 100px 0 0 0;
   color: white;
 }
 .trade__title{
@@ -234,7 +252,172 @@
   padding-bottom: 219px;
 }
 
-.trade__cryptocurrencies{
+.trade__second{
+  width: 100%;
   background-color: #E0E0E0;
+  box-sizing: border-box;
 }
 
+.trade__cryptocurrencies{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.trade__cryptocurrencies-title{
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 60px;
+  color: #0D0D2B;
+  text-align: center;
+  margin: 0;
+  padding: 316px 0 0 0;
+}
+
+.trade__items{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 64px;
+  padding-bottom: 100px;
+}
+
+.trade__item{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 370px;
+  background-color: rgba(43, 7, 110, 1);
+  color: white;
+  border-radius: 16px;
+}
+
+.trade__item_property_color{
+  background-color: white;
+  color: #828282;
+}
+
+.trade__item-title_type_black{
+  color: black;
+}
+
+.trade__icon{
+  max-width: 80px;
+  width: 100%;
+  height: 80px;
+  border-radius: 50%;
+  background: linear-gradient(180deg, #F9AA4B -0.02%, #F7931A 99.99%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 48px;
+}
+
+.trade__item-title{
+  display: flex;
+  margin-top: 48px;
+}
+
+.trade__crypt{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  text-align: center;
+  margin: 0;
+}
+
+.trade__crypt-index{
+  margin: 0 0 0 8px;
+  opacity: 0.7;
+  display: flex;
+  align-items: center;
+}
+
+.trade__item-text{
+  margin: 0;
+  padding: 16px 24px 25px;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  letter-spacing: 0.01em;
+}
+
+.trade-item-button{
+  width: 130px;
+  height: 52px;
+  border-radius: 32px;
+  color: white;
+  background-color: #3671E9;
+  border-color: transparent;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: white;
+  margin-bottom: 48px;
+}
+
+.mining{
+  width: 100%;
+  background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+  box-sizing: border-box;
+  color: white;
+  padding: 88px 0;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.mining__content{
+  max-width: 1200px;
+  background-color: rgba(54, 113, 233, 1);
+  border-radius: 16px;
+  margin: 0 auto;
+  display: flex;
+  padding: 48px;
+  justify-content: space-between;
+}
+
+.mining__title{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.mining__text{
+  max-width: 348px;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+
+.mining__block-form{
+  display: flex;
+  max-width: 566px;
+  width: 100%;
+  justify-content: space-between;
+}
+.mining__input{
+  max-width: 374px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: white;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+.mining__button{
+  width: 130px;
+  height: 52px;
+  border-radius: 32px;
+  background: #FFFFFF;
+  border-color: transparent;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #0D0D2B;
+
+}
