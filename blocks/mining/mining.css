@@ -1,0 +1,51 @@
+.mining{
+  width: 100%;
+  background: linear-gradient(180deg, #2B076E 0%, #0D0D2B 100%);
+  box-sizing: border-box;
+  color: white;
+  padding: 88px 0;
+  font-family: 'Rubik', Arial, Helvetica, sans-serif;
+  font-style: normal;
+}
+
+.mining__content{
+  max-width: 1200px;
+  background-color: rgba(54, 113, 233, 1);
+  border-radius: 16px;
+  margin: 0 auto;
+  display: flex;
+  padding: 48px;
+  justify-content: space-between;
+}
+
+.mining__title{
+  font-weight: bold;
+  font-size: 32px;
+  line-height: 48px;
+  margin: 0;
+}
+
+.mining__text{
+  max-width: 348px;
+  font-size: 16px;
+  line-height: 28px;
+  letter-spacing: 0.01em;
+}
+
+.mining__block-form{
+  display: flex;
+  max-width: 566px;
+  width: 100%;
+  justify-content: space-between;
+  align-items: center;
+}
+.mining__input{
+  padding: 0;
+  max-width: 374px;
+  height: 35px;
+  width: 100%;
+  background: transparent;
+  border: none;
+  color: #FFFFFF;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.4);
+}

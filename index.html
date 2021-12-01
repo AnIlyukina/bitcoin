@@ -20,7 +20,7 @@
         </nav>
         <div class="header__authentication ">
           <div class="header__login">Login</div>
-          <button class="button">Register</button>
+          <button class="button button_place_header-top">Register</button>
         </div>
       </div>
       <div class="header__proposition">
@@ -30,7 +30,7 @@
           </div>
           <h1 class="header__title">Fastest & secure platform to invest in crypto</h1>
           <p class="header__text">Buy and sell cryptocurrencies, trusted by 10M wallets with over $30 billion in transactions.</p>
-          <button class="button">Try for FREE</button>
+          <button class="button button_place_header-proposition">Try for FREE</button>
         </div>
         <img class='header__illustration' src="./image/main-illustration.png" alt="Bitcoin">
       </div>
@@ -81,14 +81,14 @@
 
       <section class="calculate">
         <div class="calculate__block-rate">
-          <input type="text" placeholder="Enter your hash rate">
-          <input type="text" list="list" placeholder="TH/s">
+          <input class='calculate__input' type="text" placeholder="Enter your hash rate">
+          <input class='calculate__input-list' type="text" list="list" placeholder="TH/s">
           <datalist id="list">
             <option value="TH/s">
             <option value="TH/s">
             <option value="TH/s">
         </datalist>
-        <button class="button">Calculate</button>
+        <button class="button button_place_calculate">Calculate</button>
         </div>
         <div class="calculate__block-revenue">
           <p class="calculate__title">ESTIMATED 24 HOUR REVENUE:</p>
@@ -109,7 +109,7 @@
                 <h4 class="trade__crypt-index">BTC</h4>
               </div>
               <p class="trade__item-text">Digital currency in which a record of transactions is maintained.</p>
-              <button class="trade-item-button">Start mining</button>
+                <button class="button button_place_trade">Start mining <div class="button__icon"><img src="./image/next-mini.svg" alt="detail"></div></button>
             </div>
 
             <div class="trade__item trade__item_property_color">
@@ -119,7 +119,7 @@
                 <h4 class="trade__crypt-index">ETH</h4>
               </div>
               <p class="trade__item-text">Blockchain technology to create and run decentralized digital applications.</p>
-              <button class="trade-item-button">Start mining</button>
+              <button class="button__icon button__icon_type_crypt"><img src="./image/next.svg" alt="detail"></button>
             </div>
 
             <div class="trade__item trade__item_property_color">
@@ -129,7 +129,7 @@
                 <h4 class="trade__crypt-index">LTC</h4>
               </div>
               <p class="trade__item-text">Cryptocurrency that enables instant payments to anyone in the world.</p>
-              <button class="trade-item-button">Start mining</button>
+              <button class="button__icon button__icon_type_crypt"><img src="./image/next.svg" alt="detail"></button>
             </div>
             
           </div>
@@ -146,7 +146,7 @@
         </div>
         <form class="mining__block-form">
           <input class='mining__input' type="email" placeholder="Enter your email">
-          <button class="mining__button">Subscribe</button>
+          <button class="button button_place_mining">Subscribe</button>
         </form>
       </div>
     </section>
