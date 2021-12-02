@@ -8,15 +8,35 @@
   font-weight: 500;
 }
 
+@media (max-width: 850px){
+  .button{
+    padding: 8px 20px;
+  }
+}
+
 .button_place_header-top{
   font-size: 16px;
   line-height: 24px;
+}
+
+@media (max-width: 680px){
+  .button_place_header-top{
+   margin-top: 10px;
+  }
 }
 
 .button_place_header-proposition{
   padding: 16px 24px;
   font-size: 18px;
   line-height: 27px;
+}
+
+@media (max-width: 500px){
+  .button_place_header-proposition{
+    padding: 10px 20px;
+    font-size: 16px;
+    line-height: 24px;
+  }
 }
 
 .button_place_calculate{
@@ -42,6 +62,20 @@
   align-items: center;
 }
 
+@media (max-width: 1024px){
+  .button_place_trade{
+    margin-bottom: 24px;
+  }
+}
+
+@media (max-width: 900px){
+  .button_place_trade{
+    padding: 5px 10px 5px 16px;
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
 .button__icon{
   display: flex;
   justify-content: center;
@@ -64,3 +98,24 @@
   border: 2px solid rgba(43, 7, 110, 0.2);
   margin-left: 0;
 }
+
+@media (max-width: 900px){
+  .button__icon_type_crypt{
+    width: 40px;
+    height: 40px;
+  }
+}
+
+@media (max-width: 900px){
+  .button__vector{
+    width: 7px;
+    height: 11px;
+  }
+}
+
+@media (max-width: 1024px){
+  .button__icon_type_crypt{
+    margin-bottom: 24px;
+  }
+}
+

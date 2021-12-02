@@ -14,9 +14,27 @@
   padding: 100px auto 116px;
 }
 
+@media (max-width: 1300px){
+  .numbers__content{
+    padding: 0 50px ;
+  }
+}
+
+@media (max-width: 700px){
+  .numbers__content{
+    flex-direction: column;
+  }
+}
+
 .numbers__block{
   display: flex;
   flex-direction: row;
+}
+
+@media (max-width: 700px){
+  .numbers__block{
+    margin-top: 20px;
+  }
 }
 
 .numbers__block-icon{
@@ -28,8 +46,21 @@
   justify-content: center;
 }
 
+@media (max-width: 1000px){
+  .numbers__block-icon{
+    width: 60px;
+    height: 60px;
+  }
+}
+
 .numbers__icon{
   width: 40px;
+}
+
+@media (max-width: 1000px){
+  .numbers__icon{
+    width: 30px;
+  }
 }
 
 .numbers__block-number{
@@ -38,10 +69,31 @@
   font-family: 'Rubik', Arial, Helvetica, sans-serif;
 }
 
+@media (max-width: 1000px){
+  .numbers__block-number{
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
 .numbers__number{
   font-weight: bold;
   font-size: 40px;
   line-height: 60px;
+}
+
+@media (max-width: 1000px){
+  .numbers__number{
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 375px){
+  .numbers__number{
+    font-size: 20px;
+    line-height: 30px;
+  }
 }
 
 .number__text{
@@ -49,4 +101,11 @@
   font-size: 16px;
   line-height: 28px;
   letter-spacing: 0.01em;
+}
+
+@media (max-width: 375px){
+  .number__text{
+    font-size: 10px;
+    line-height: 20px;
+  }
 }

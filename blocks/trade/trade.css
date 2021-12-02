@@ -19,12 +19,40 @@
   padding: 100px 0 0 0;
   color: white;
 }
+
+@media (max-width: 1300px){
+  .trade__block-info{
+    padding: 100px 50px 0;
+  }
+}
+
+
+@media (max-width: 860px){
+  .trade__block-info{
+    padding: 50px 50px 0;
+  }
+}
+
 .trade__title{
   margin: 0;
   font-weight: bold;
   font-size: 40px;
   line-height: 60px;
   text-align: center;
+}
+
+@media (max-width: 450px){
+  .trade__title{
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+
+@media (max-width: 375px){
+  .trade__title{
+    font-size: 25px;
+  }
 }
 
 .trade__text{
@@ -37,6 +65,12 @@
   padding-bottom: 219px;
 }
 
+@media (max-width: 450px){
+  .trade__text{
+    font-size: 16px;
+    line-height: 27px;
+  }
+}
 .trade__second{
   width: 100%;
   background-color: #E0E0E0;
@@ -46,6 +80,12 @@
 .trade__cryptocurrencies{
   max-width: 1200px;
   margin: 0 auto;
+}
+
+@media (max-width: 1300px){
+  .trade__cryptocurrencies{
+    padding: 0px 50px 0;
+  }
 }
 
 .trade__cryptocurrencies-title{
@@ -58,11 +98,35 @@
   padding: 316px 0 0 0;
 }
 
+
+@media (max-width: 450px){
+  .trade__cryptocurrencies-title{
+    font-size: 25px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 375px){
+  .trade__cryptocurrencies-title{
+    font-size: 20px;
+    line-height: 30px;
+  }
+}
+
 .trade__items{
   display: flex;
   justify-content: space-between;
   margin-top: 64px;
   padding-bottom: 100px;
+}
+
+@media (max-width: 768px){
+  .trade__items{
+    margin-top: 0px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .trade__item{
@@ -71,9 +135,32 @@
   justify-content: center;
   align-items: center;
   max-width: 370px;
+  width: 100%;
   background-color: rgba(43, 7, 110, 1);
   color: white;
   border-radius: 16px;
+}
+
+@media (max-width: 768px){
+  .trade__item{
+    margin-right: 0px;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width: 768px){
+  .trade__items{
+    margin-top: 32px;
+    padding-bottom: 50px;
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 1300px){
+  .trade__item:last-child{
+    margin-right: 0px;
+  }
 }
 
 .trade__item_property_color{
@@ -97,9 +184,31 @@
   margin-top: 48px;
 }
 
+
+
+@media (max-width: 1024px){
+  .trade__icon{
+    margin-top: 24px;
+  }
+}
+
+@media (max-width: 900px){
+  .trade__icon{
+    max-width: 50px;
+    width: 100%;
+    height: 50px;
+  }
+}
+
 .trade__item-title{
   display: flex;
   margin-top: 48px;
+}
+
+@media (max-width: 1024px){
+  .trade__item-title{
+    margin-top: 24px;
+  }
 }
 
 .trade__crypt{
@@ -110,11 +219,32 @@
   margin: 0;
 }
 
+@media (max-width: 900px){
+  .trade__crypt{
+    font-size: 25px;
+    line-height: 24px;
+  }
+}
+
+@media (max-width: 375px){
+  .trade__crypt{
+    font-size: 20px;
+
+  }
+}
+
 .trade__crypt-index{
   margin: 0 0 0 8px;
   opacity: 0.7;
   display: flex;
   align-items: center;
+}
+
+@media (max-width: 900px){
+  .trade__crypt-index{
+    font-size: 10px;
+    line-height: 20px;
+  }
 }
 
 .trade__item-text{
@@ -125,4 +255,18 @@
   line-height: 28px;
   text-align: center;
   letter-spacing: 0.01em;
+}
+
+@media (max-width: 900px){
+  .trade__item-text{
+    font-size: 14px;
+    line-height: 20px;
+  }
+}
+
+@media (max-width: 375px){
+  .trade__item-text{
+    font-size: 12px;
+
+  }
 }
