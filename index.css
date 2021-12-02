@@ -8,3 +8,7 @@
 @import url(./blocks/mining/mining.css);
 @import url(./blocks/calculate/calculate.css);
 @import url(./blocks/footer/footer.css);
+
+.body{
+  min-width: 320px;
+}

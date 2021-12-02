@@ -53,6 +53,16 @@
   line-height: 27px;
 }
 
+
+@media (max-width: 900px){
+  .button_place_mining{
+    margin-top: 20px;
+    padding: 10px 24px;
+    font-size: 14px;
+    line-height: 24px;
+  }
+}
+
 .button_place_trade{
   padding: 16px 16px 16px 24px;
   font-size: 18px;
