@@ -45,6 +45,23 @@
   line-height: 27px;
 }
 
+@media (max-width: 1300px){
+  .button_place_calculate{
+    padding: 12px 24px;
+    font-size: 14px;
+    line-height: 25px;
+  }
+} 
+
+@media (max-width: 600px){
+  .button_place_calculate{
+    padding: 8px 24px;
+    margin-top: 20px;
+  }
+} 
+
+
+
 .button_place_mining{
   background: #FFFFFF;
   color: #0D0D2B;
