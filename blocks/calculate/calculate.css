@@ -5,8 +5,9 @@
   font-style: normal;
   margin: auto;
   position: absolute;
-  top: 303px; left: 0; bottom: 0; right: 0;
+  top: 303px; left: 0; bottom: 600px; right: 0;
   box-sizing: border-box;
+  z-index: 0;
 }
 
 @media (max-width: 1300px){
@@ -21,6 +22,12 @@
    top: 262px;
   }
 }
+@media (max-width: 768px){
+  .calculate{
+    bottom: 1000px;
+  }
+}
+
 
 
 @media (max-width: 697px){
