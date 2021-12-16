@@ -13,4 +13,4 @@ ___
 
 ### Посмотреть:
 
-[Ссылка на GitHub Pages](https://anilyukina.github.io/bitcoin/)
+[Ссылка на GitHub Pages](https://anilyukina.github.io/bitcoin/) :feet:
